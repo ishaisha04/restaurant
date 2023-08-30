@@ -1,6 +1,7 @@
 const menu=document.getElementById("menu-bar")
 const navbar=document.querySelector(".main-navbar")
 menu.onclick=()=>{
+    
     navbar.classList.toggle("navopen");
 }
 // const navlink= document.querySelectorAll('.nav_link');

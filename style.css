@@ -515,6 +515,7 @@ p .dishname {
 
 .navopen {
     transform: translateX(0%) !important;
+    transition: all 1s;
 }
 
 
@@ -575,9 +576,9 @@ p .dishname {
             margin: 1rem;
             font-size: 2rem;
             /* background: #eee;  */
-}
+/* } */
 
-*/ .hometxt h1 {
+ .hometxt h1 {
     font-size: 5rem;
     color: rgb(20, 20, 78);
 
@@ -586,6 +587,20 @@ p .dishname {
 .homecontent {
     width: 100%;
 }
+.abtbtn{
+    display: block;
+    margin: 0 auto;
+}
+.order form {
+    width: 100%;
+    
+}
+.inputbox .input {
+    width: 100%;
+
+}
+
+
 
 }
 
