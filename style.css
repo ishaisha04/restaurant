@@ -105,6 +105,12 @@ header {
 #menu-bar {
     display: none;
 }
+#close{
+    display: none;
+}
+.show{
+    display: block;
+}
 
 .homecontent {
     display: flex;
@@ -526,7 +532,8 @@ p .dishname {
 
     .main-navbar {
         padding: 1rem 2rem;
-        background: red;
+        background: #f7e4e4;
+        /* background: red; */
     }
 
     section {
@@ -541,6 +548,7 @@ p .dishname {
 
     .main-navbar {
         position: absolute;
+        background: #fff;
         top: 100%;
         left: 0;
         right: 0;
@@ -559,7 +567,7 @@ p .dishname {
             border-bottom: 1rem solid rgba(0, 0, 0, 0.2);
             padding: 1rem; */
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
         /* clip-path: polygon(0 0,100% 0, 100% 0, 0 0); */
 
 
@@ -569,14 +577,14 @@ p .dishname {
         /* clip-path: polygon(0 0,100% 0, 100% 100%, 0 100%); */
     }
 
-    /* .navlinks a{
-            background: yellow;
+    .navlinks a{
+            /* background: yellow; */
             display: block;
             padding: 1.5rem;
             margin: 1rem;
             font-size: 2rem;
-            /* background: #eee;  */
-/* } */
+            background: #eee; 
+}
 
  .hometxt h1 {
     font-size: 5rem;

@@ -1,9 +1,11 @@
 const menu=document.getElementById("menu-bar")
 const navbar=document.querySelector(".main-navbar")
+const closeicon=document.getElementById("close")
 menu.onclick=()=>{
     
     navbar.classList.toggle("navopen");
-}
+    menu.classList.toggle("bx-window-close");
+
 // const navlink= document.querySelectorAll('.nav_link');
 // const sectionEls= document.querySelectorAll('.section');
 // let currentSection='home'
