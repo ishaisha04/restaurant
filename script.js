@@ -5,6 +5,7 @@ menu.onclick=()=>{
     
     navbar.classList.toggle("navopen");
     menu.classList.toggle("bx-window-close");
+}
 
 // const navlink= document.querySelectorAll('.nav_link');
 // const sectionEls= document.querySelectorAll('.section');
